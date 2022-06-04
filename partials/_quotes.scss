@@ -1,0 +1,14 @@
+.quoteContainer{
+    
+    font-size: 4vmin;
+    text-shadow: 1px black;
+    position: absolute;
+    width: 90%;
+    height: 2rem; 
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    button{
+        visibility: hidden;
+    }
+}

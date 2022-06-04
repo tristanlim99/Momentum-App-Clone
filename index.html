@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/toDo.js" defer></script>
+    <script src="js/quote.js" defer></script>
+    <script src="js/toggle.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-------top-banner------->
+
+      <!------clock------>
+      <div id="clock" class="clock"></div>
+      <!----greeting---->
+      <div class="greeting">
+        <h2 id="greet" class="greet">
+          <h2 id="showName" class="showName">
+            <form method="get">
+              <input type="text" id="dataName" placeholder="Enter Your Name" />
+              <input type="submit" value="click me" id="btn" class="btn" />
+            </form>
+          </h2>
+        </h2>
+      </div>
+
+      <!--Focus-->
+      <div class="to-do-section">
+        <h1>What's Your Main Focus For Today?</h1>
+        <form id="todo-form" class="todo-form">
+          <input class="todolists" type="text" />
+        </form>
+        <ul id="todo-list" class="to-do-list"></ul>
+      </div>
+
+      <!--To-Do-list-->
+      <div class="toDos">
+        <button class="toggle" onclick="myFunction()">To-Do</button>
+
+        <div id="myDIV">
+          <div class="todolist">
+            <h3>To Do List</h3>
+            <div class="togglecontainer">
+              <input type="text" class="inputField" id="inputField" />
+              <button id="addToDo" class="addToDo">+</button>
+              <div class="to-dos" id="toDoContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Add New Quote-->
+      <div class="newQuoteCont">
+        <form>
+          <input
+            type="text"
+            id="dataQuote"
+            class="dataQuote"
+            placeholder="Add New Quote..."
+          />
+          <input
+            type="submit"
+            value="Add New Quote"
+            id="btnQuote"
+            class="btnQuote"
+          />
+        </form>
+      </div>
+      <!--Quote Generator--->
+      <div class="quoteContainer">
+        <div id="quoteDisplay" class="quoteDisplay"></div>
+        <!--quotes will display here-->
+        <button onclick="newQuote()" id="button" class="button"
+          >New Quote</button
+        >
+      </div>
+    </div>
+  </body>
+</html>

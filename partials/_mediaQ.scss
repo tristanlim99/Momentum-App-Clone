@@ -1,0 +1,71 @@
+@media all and (max-width:500px) {
+
+  .to-do-section .to-do-list{
+     height: 8rem;
+     line-height: .2rem;
+     font-size: 3vmin;
+    margin-top: 0;
+    padding: 0;
+     li{
+        margin-top: 0.3rem;
+    }
+  }
+   .dataQuote{
+      display: none;
+  }
+  .btnQuote{
+      display: none;
+  }
+    div .quoteContainer{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1vmin;  
+  }
+
+  .quoteDisplay{
+      font-size: 2vmin;
+      margin-bottom: 8rem;
+  }
+
+  div .todolist{
+      width: 90%;
+      height: 9rem;
+      position: absolute;
+      background: #f1d0b9;
+      bottom: 4rem;
+      h3{
+          text-align: center;
+      }
+      p{
+        text-align: center;
+        font-size: 5vmin;
+    }
+
+    // div .todolist ul li{
+    //     margin-top: 0;
+    // }
+    .to-dos{
+        overflow-y: scroll;
+        height: 3rem;
+    }
+     .togglecontainer{
+       text-align: center;
+       height: 2rem;
+    }
+  }
+  div .newQuoteCont{
+      margin: 0;
+  }
+  button .toggle{
+      position: absolute;
+      left: 2px;
+  }
+  .button{
+      display: none;
+  }
+//   .to-dos{
+//     background: grey;
+//   }
+}

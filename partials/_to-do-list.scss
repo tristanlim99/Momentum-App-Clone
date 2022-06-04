@@ -1,0 +1,29 @@
+.toggle{
+    position: absolute;
+    right: 1em;
+    bottom: 2em;
+    background-color: rgba(0, 0, 0, .4);
+    font-family: inherit;
+    font-size: 3vmin;
+    color: inherit;
+    text-shadow: inherit;
+}
+.todolist{
+    border: 1px solid black;
+    height: 12rem;
+    position: absolute;
+    right: 1em;
+    bottom: 7rem;
+    background-color: rgba(0, 0, 0, .4);
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 5vmin;
+    }
+    .to-dos{
+        overflow-y: scroll;
+        height: 9rem;
+    }
+}

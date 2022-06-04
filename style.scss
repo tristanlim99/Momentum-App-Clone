@@ -1,0 +1,51 @@
+@import 'partials/clock';
+@import 'partials/mediaQ';
+@import 'partials/toDo';
+@import 'partials/greeting';
+@import 'partials/quotes';
+@import 'partials/to-do-list';
+@import 'partials/newQuote';
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Amatic SC', cursive;
+    // color: #DCDCDC;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px black;
+    overflow: hidden;
+   
+}
+   
+.container{
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+  
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    li{
+        margin-top: 1rem;
+    }
+    img{
+        width: 2rem;
+    }
+    i{
+        font-size: 2rem;
+    }
+}
+
+.to-do-section2{
+    position: absolute;
+    top: 1rem;
+}
